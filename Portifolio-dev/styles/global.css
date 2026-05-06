@@ -12,9 +12,24 @@
     --text-emphasis-color: #E3646E;
     --bg-main-color: #292C34;
     --bg-aside-color: #0D0E11;
+
+    --font-family-text: 'Maven Pro', serif, monospace;
+    --font-family-titles: 'Asap', sans-serif;
+    --font-family-emphasis: 'Inconsolata', serif, monospace;
+    --h1: 700 56px/120% var(--font-family-titles);
+    --h2: 700 24px/120% var(--font-family-titles);;
+    --h3: 700 16px/120% var(--font-family-titles);;
+    --text-lg: 400 20px/120% var(--font-family-emphasis);
+    --text: 400 16px/140% var(--font-family-text);
+    --text-sm: 400 14px/140% var(--font-family-text);
 }
 
 body {
+    font: var(--text);
     color: var(--text-primary-color);
     background-color: var(--bg-main-color);
+}
+
+h1, h2, h3 {
+    font: inherit;
 }
