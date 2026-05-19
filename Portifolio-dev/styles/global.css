@@ -10,7 +10,8 @@
     --text-secundary-color: #E2E4E9 ;
     --text-terciary-color: #878EA1;
     --text-emphasis-color: #E3646E;
-    --bg-main-color: #292C34;
+    --bg-main-color: #16181D;
+    --bg-span-color: #292C34;
     --bg-aside-color: #0D0E11;
 
     --font-family-text: 'Maven Pro', serif, monospace;
@@ -32,4 +33,10 @@ body {
 
 h1, h2, h3 {
     font: inherit;
+}
+
+a {
+    text-decoration: none;
+    font: var(--text);
+    color: var(--text-primary-color);
 }
