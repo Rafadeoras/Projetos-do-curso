@@ -24,29 +24,23 @@ header {
     p {
         text-align: center;
         font: var(--text-lg);
-        span {
-            color: var(--text-emphasis-color);
-        }
         margin-top: 54px;
         margin-bottom: 10px;
     }
 
     h1{
-        font: var(--h1);
         color: var(--text-secundary-color);
         text-align: center;
         margin-bottom: 20px;
     }
 
     h1 + p{
-        font: var(--text-sm);
         color: var(--text-terciary-color);
     }
 
     nav{
         display: flex;
         text-align: center;
-        gap: 16px;
         align-items: center;
         justify-content: center;
         margin-bottom: 94px;

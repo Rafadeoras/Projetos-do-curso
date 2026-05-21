@@ -40,3 +40,8 @@ a {
     font: var(--text);
     color: var(--text-primary-color);
 }
+
+hr {
+    margin-top: 57px;
+    border-color: var(--bg-span-color);
+}

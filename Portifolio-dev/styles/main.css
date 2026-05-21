@@ -1,0 +1,27 @@
+main {
+
+    width: 80%;
+    margin: auto;
+    margin-top: 76px;
+    margin-bottom: 144px;
+
+    h2 {
+        color: var(--text-secundary-color)
+    }
+
+    img {
+        display: flex;
+        width: 100%;        
+        border-radius: 25px;
+    }
+
+    div {
+        margin-top: 56px
+    }
+
+    span {
+        padding: 20px;
+        background-color: var(--bg-span-color);
+        border-radius: 30px;
+    }
+}
