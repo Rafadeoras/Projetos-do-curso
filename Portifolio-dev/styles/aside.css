@@ -1,0 +1,15 @@
+aside {
+
+    padding: 120px 0px 120px 0px;
+    background-color: var(--bg-aside-color);
+
+    div {
+        margin: auto;
+        margin-top: 54px;
+        span {
+            border: solid var(--bg-main-color);
+            border-radius: 10px;
+            padding: 20px;
+        }
+    }
+}
