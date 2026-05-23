@@ -19,9 +19,13 @@ main {
         margin-top: 56px
     }
 
-    span {
+    a {
         padding: 20px;
         background-color: var(--bg-span-color);
         border-radius: 30px;
+    }
+
+    a:hover {
+        border: solid var(--text-secundary-color);
     }
 }

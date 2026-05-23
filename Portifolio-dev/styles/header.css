@@ -55,8 +55,22 @@ header {
         }
     }
 
-    nav + a {
+    div a{
         display: flex;
         justify-content: center;
+    }
+
+    #hidden {
+        display: none;
+    }
+
+    nav + div:hover #hidden{
+        display: flex;
+        gap: 32px;
+        border: solid var(--bg-span-color);
+        border-radius: 10px;
+        margin: auto;
+        width: 50%;
+        padding: 5px;
     }
 }

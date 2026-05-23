@@ -28,4 +28,9 @@ footer {
         .arrow {
             width: 20px;
         }
+
+        a:hover {
+            border: solid var(--text-secundary-color);
+        }
     }
+}
