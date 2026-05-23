@@ -1,0 +1,31 @@
+footer {
+
+    padding: 128px 120px 200px 120px;
+
+    p.text-sm {
+        margin-bottom: 48px;
+    }
+    
+    section {
+
+        width: 60%;
+        margin: auto;
+
+
+        a {
+            grid-template-columns: 1fr 7fr 1fr;
+            display: flex;
+            align-items: center;
+            padding: 20px 0px 20px 30px;
+            background-color: var(--bg-span-color);
+            border-radius: 10px;
+        }
+
+        img {
+            width: 28px;
+        }
+
+        .arrow {
+            width: 20px;
+        }
+    }
