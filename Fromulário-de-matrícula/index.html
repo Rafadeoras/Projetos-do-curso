@@ -12,20 +12,29 @@
 </head>
 <body>
     <div id="app">
+        
         <main>
+        
             <div class="main-container">
+        
                 <div class="back">
                     <img src="assets/icons/arrow-left-02.svg" alt="">
                     <span>Voltar</span>
+        
                 </div>
+        
                 <h1>Fromulário de matrícula</h1>
                 <p>Preencha os dados abaixo para matricular seu 
                     filho na escola de educação infantil Estrelas 
                     do Amanhã.
                 </p>
+        
                 <form>
+        
                     <fieldset class="child-info">
+        
                         <legend>Informações da criança</legend>
+        
                         <div>
                             <label for="fullname">Nome completo</label>
                             <input 
@@ -33,10 +42,12 @@
                                 type="text"
                                 placeholder="Qual o nome da criança">
                         </div>
+        
                         <div class="input-wrapper">
                             <label for="birth">Data de Nascimento</label>
                             <input type="date" id="birth" lang="pt-br">
                         </div>
+        
                         <div class="select-wrapper">
                             <label for="gender">Sexo</label>
                             <select name="gender" id="gender">
@@ -45,6 +56,7 @@
                                 <option value="na">Prefiro não responder</option>
                             </select>
                         </div>
+                    
                         <div class="textarea-wrapper">
                             <label for="medical-info">Informações médicas</label>
                             <textarea name="medical-info" id="medical-info"
@@ -52,6 +64,7 @@
                                 placeholder="A criança possui alguma condição médica que a escola deve estar ciente?(Se sim, especiufique)"
                             ></textarea>
                         </div>
+                    
                         <div class="droparea-wrapper">
                             <label for="birth-file">Certidão de Nascimento</label>
                             <div class="dropzone">
@@ -70,22 +83,92 @@
                             </div>
                         </div>
                     </fieldset>
+
+                    <fieldset class="address">
+                        <legend>Endereço Residencial</legend>
+
+                        <div class="input-wrapper">
+                            <label for="cep">CEP</label>
+                            <input type="text" id="cep" name="cep">
+                        </div>
+
+                        <div class="flex">
+                            <div class="input-wrapper flex-2">
+                                <label for="street">Rua</label>
+                                <input type="text" id="street" name="street"
+                                value="Rua das Flores" disabled>
+                            </div>
+
+                            <div class="input-wrapper flex-1">
+                                <label for="number">Número</label>
+                                <input type="number" id="number" name="number">
+                            </div>
+                        </div>
+
+                        <div class="flex">
+                            <div class="input-wrapper flex-2">
+                                <label for="city">Cidade</label>
+                                <input type="text" id="city" name="city"
+                                value="São Paulo" disabled>
+                            </div>
+
+                            <div class="input-wrapper flex-1">
+                                <label for="state">Estado</label>
+                                <input type="text" id="state" name="state" disabled>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="guardian">
+                        <legend>Imformações do resposável</legend>
+
+                        <div class="input-wrapper">
+                            <label for="guardian"> Nome do responsável</label>
+                            <input type="text" id="guardian">
+                            <small>
+                                Principal responsável legal e 
+                                contato de emergência
+                            </small>
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone"
+                            placeholder="(XX) XXXXX-XXXX">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="mail">E-mail</label>
+                            <input type="email" name="mail" id="mail"
+                            required>
+                        
+
+                            <div class="error">
+                                <img src="assets/icons/alert-circle.svg" alt="">
+                                <span>Insira um e-mail válido</span>
+                            </div>
+                        </div>
+                    </fieldset>
                 </form>
             </div>
         </main>
         <div class="aside-container">
             <aside>
+                
                 <header>
-                <img src="assets/logo.svg" alt="">
-                <h2>
-                    Porque cada momento de 
-                    <span>aprendizado</span>
-                    conta
-                </h2>
-                <p>Inscreva seu filho em nossa escola 
-                    e veja-o florescer em um ambiente 
-                    acolhedor, seguro e estimulante.</p>
+                    <img src="assets/logo.svg" alt="">
+                    <h2>
+                        Porque cada momento de 
+                        <span>aprendizado</span>
+                        conta
+                    </h2>
+                    <p>
+                        Inscreva seu filho em nossa escola 
+                        e veja-o florescer em um ambiente 
+                        acolhedor, seguro e estimulante.
+                    </p>
                 </header>
+                
                 <img src="assets/Illustration.svg" alt="">
             </aside>
         </div>
