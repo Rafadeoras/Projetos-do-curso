@@ -38,7 +38,7 @@
     position: relative;
 
     &::before {
-        content: "";
+        content:"";
         position: absolute;
         border-radius: inherit;
         inset: 0.09375rem;
@@ -49,7 +49,7 @@
     &::after {
         content: attr(aria-label);
         background: var(--btn-bg-color);
-        --webkit-background-clip: text;
+        -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
         position: relative;
