@@ -27,10 +27,6 @@ html, button{
     font: 500 var(--text-b)/1.5 var(--ff-base);
 }
 
-html {
-    zoom: 0.7;
-}
-
 h1, h2 {
     font-family: 'Syne', sans-serif;
 }
